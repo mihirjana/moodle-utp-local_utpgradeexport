@@ -45,9 +45,9 @@ if (has_capability('local/utpgradeexport:config', context_system::instance())) {
 
     $ADMIN->add('root', new admin_category('local_utpgradeexport', get_string('pluginname', 'local_utpgradeexport')));
 
-    $ADMIN->add('local_utpgradeexport', new admin_externalpage('manualexport', get_string('manualexport', 'local_utpgradeexport'),
-                new moodle_url('/local/utpgradeexport/manual.php'),
-                'local/utpgradeexport:config'));
+    //$ADMIN->add('local_utpgradeexport', new admin_externalpage('manualexport', get_string('manualexport', 'local_utpgradeexport'),
+      //          new moodle_url('/local/utpgradeexport/manual.php'),
+        //        'local/utpgradeexport:config'));
 
     $ADMIN->add('localplugins', $settings);
 }
