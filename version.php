@@ -13,7 +13,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->version   = 2016080500;
-$plugin->requires  = 2016072100;
+$plugin->requires  = 2015072100;
 $plugin->component = 'local_utpgradeexport';
 $plugin->cron      = 60;
 $plugin->maturity  = MATURITY_STABLE;
